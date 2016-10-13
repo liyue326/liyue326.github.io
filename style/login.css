@@ -1,0 +1,33 @@
+html,body,form,ol,ul,li,div,p,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,th,td{margin:0px;padding:0px;}
+h1,h2,h3,h4,h5,h6,button,input,select,textarea{font-size:100%;font-weight:normal}
+ol,ul{list-style:none;}
+html{_filter:expression(document.execCommand("BackgroundImageCache",false,true));height:100%}
+a{text-decoration:none;}a:hover{text-decoration:none;}
+a:active{}
+img{border:0;-ms-interpolation-mode:bicubic;}
+
+
+body{margin:0px;padding:0px;font-size:14px;color:#63798f; line-height:16px;font-family:"Microsoft YaHei",微软雅黑,Arial, Tahoma,宋体;min-height: 100%;position: relative;background: url(../images/bg.jpg) no-repeat center top}
+img{border:0px;}
+a{text-decoration:none;color:#acacac}
+a:hover{text-decoration:none;color:#acacac}
+a {blr:expression(this.onFocus=this.blur());outline:none;}
+input:focus{outline:none}
+input::-ms-clear{display:none}
+input::-webkit-input-placeholder{color: #bbcada}
+input:-moz-placeholder{color: #bbcada}
+input::-moz-placeholder{color: #bbcada}
+input:-ms-input-placeholder{color: #bbcada}
+input:placeholder{color: #bbcada}
+
+#login{width:376px}
+.login{padding: 40px 52px;background: #fff;border-radius: 16px}
+.login li{height:22px;border-bottom: 1px solid #cedae6;padding:40px 0 10px 42px}
+.login li.i1{background: url(../images/ico1.gif) no-repeat 0 40px}
+.login li.i2{background: url(../images/ico2.gif) no-repeat 0 40px}
+.login li input{border:none;width:200px;height:22px;line-height: 22px;color:#63798f}
+.login a.btn{margin-top: 40px;display: block;border:1px solid #bacadb;border-radius: 4px;text-align: center;font-size: 18px;color:#bacadb;height:46px;line-height: 46px}
+.login a.btn:hover, .login a.on{color:#2390ff;border:1px solid #2390ff}
+.logo{height:98px;text-align: center}
+.error{height:44px;line-height: 44px;text-align: center;color:#ff6d6d;font-size: 18px;background: #fff;margin-top: 2px;border-radius: 20px}
+.error span{padding-left:28px;background: url(../images/error.png) no-repeat 0 center;}

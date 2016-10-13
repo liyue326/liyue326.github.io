@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>灯塔基线管理系统</title>
+<link href="style/master.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+<div class="top">
+    <div class="box">
+        <div class="login">
+            <span class="icon i1"></span>
+            PF-Gentleman
+            <a href="javascript:void(0)" class="login_btn">退出</a>
+            <a href="news.htm" class="aqgg show"><span class="icon new"></span>安全公告</a>
+            <span class="icon set show">
+                <span class="option">
+                    <span class="ico"><span class="icon i15"></span></span>
+                    <span class="menu">
+                        <p><a href="action.htm">系统管理</a></p>
+                        
+                        <p class="o">
+                            <a href="javascript:void(0)">策略模板</a>
+                            <span class="border">
+                                <span>
+                                    <a href="systems4.htm">操作系统</a>
+                                    <a href="systems5.htm">数据库</a>
+                                    <a href="systems6.htm">中间件</a>
+                                </span>
+                            </span>
+                        </p>
+                        <p><a href="javascript:void(0)" onclick="lightbox.clockScreen('mail')">邮件配置</a></p>
+                        <p><a href="#">系统升级</a></p>
+                        <p><a href="bqxx.htm">版权信息</a></p>
+                    </span>
+                </span>
+                <span class="icon new"></span>
+            </span>
+        </div>
+        <div class="logo"><a href="index.htm"><img src="images/logo.png" alt=""></a></div>
+        <h1><img src="images/title.png" alt=""></h1>
+    </div>
+</div>
+<div class="box pb38">
+	<div class="tit_nav"><a href="index.htm">首页</a> > 设置-策略模板-数据库</div>
+	<div class="tab_btn">
+		<a href="javascript:void(0)">Mysql</a>
+		<a href="javascript:void(0)">Mssql</a>
+		<a href="javascript:void(0)">Oracle</a>
+		<div class="clr"></div>
+	</div>
+	<div class="tab_main">
+		<div class="systems_tab systems_tab2 tb0">
+			<a href="javascript:void(0)">安全策略</a>
+			<a href="javascript:void(0)">账号安全</a>
+			<a href="javascript:void(0)">权限检查</a>
+		</div>
+		<div class="sys_main2 tm0">
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<th><p>编号</p></th>
+					<th><p>名称</p></th>
+					
+					<th><p>说明</p></th>
+					<th><p>开关</p></th>
+				</tr>
+				<tr>
+					<td><p>Osl-mysqlsec01</p></td>
+					<td><p>关闭远程连接</p></td>
+					
+					<td><p>关闭远程连接功能</p></td>
+					<td><span class="icon _on"></span></td>
+				</tr>
+			</table>
+		</div>
+		<div class="sys_main2 tm0">
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<th><p>编号</p></th>
+					<th><p>名称</p></th>
+				
+					<th><p>说明</p></th>
+					<th><p>开关</p></th>
+				</tr>
+				<tr>
+					<td><p>Osl-mysqlaccount01</p></td>
+					<td><p>独立权限</p></td>
+					
+					<td><p>数据库启动权限是否独立</p></td>
+					<td><span class="icon _on"></span></td>
+				</tr>
+			</table>
+		</div>
+		<div class="sys_main2 tm0">
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<th><p>编号</p></th>
+					<th><p>名称</p></th>
+					
+					<th><p>说明</p></th>
+					<th><p>开关</p></th>
+				</tr>
+				<tr>
+					<td><p>Osl-mysqlpower01</p></td>
+					<td><p>目录权限</p></td>
+					
+					<td><p>关闭远程连接功能</p></td>
+					<td><span class="icon _on"></span></td>
+				</tr>
+			</table>
+		</div>
+		<div class="sys_main2 tm0">
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<th><p>编号</p></th>
+					<th><p>名称</p></th>
+					
+					<th><p>说明</p></th>
+					<th><p>开关</p></th>
+				</tr>
+				<tr>
+					<td><p>Osw-user01</p></td>
+					<td><p>列举系统所有用户</p></td>
+				
+					<td><p>检查是否存在异常用户</p></td>
+					<td><span class="icon _on"></span></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+
+	<!-- Mssql -->
+	<div class="tab_main">
+		<div class="systems_tab systems_tab2 tb1">
+			<a href="javascript:void(0)">账号安全</a>
+			<a href="javascript:void(0)">口令安全</a>
+			<a href="javascript:void(0)">安全策略</a>
+		</div>
+		<div class="sys_main2 tm1">
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<th><p>编号</p></th>
+					<th><p>名称</p></th>
+				
+					<th><p>说明</p></th>
+					<th><p>开关</p></th>
+				</tr>
+				<tr>
+					<td><p>Osw-sqlservaccount01</p></td>
+					<td><p>基本账号列举</p></td>
+					
+					<td><p></p></td>
+					<td><span class="icon _on"></span></td>
+				</tr>
+			</table>
+		</div>
+		<div class="sys_main2 tm1">
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<th><p>编号</p></th>
+					<th><p>名称</p></th>
+					
+					<th><p>说明</p></th>
+					<th><p>开关</p></th>
+				</tr>
+				<tr>
+					<td><p>Osw-sqlservpass01</p></td>
+					<td><p>查看空口令用户</p></td>
+					
+					<td><p></p></td>
+					<td><span class="icon _on"></span></td>
+				</tr>
+			</table>
+		</div>
+		<div class="sys_main2 tm1">
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<th><p>编号</p></th>
+					<th><p>名称</p></th>
+				
+					<th><p>说明</p></th>
+					<th><p>开关</p></th>
+				</tr>
+				<tr>
+					<td><p>Osw-sqlsersec01</p></td>
+					<td><p>删除命令执行存储过程</p></td>
+				
+					<td><p></p></td>
+					<td><span class="icon _on"></span></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<!-- Oracle -->
+	<div class="tab_main">
+		<div class="systems_tab systems_tab2 tb2">
+			<a href="javascript:void(0)">账号安全</a>
+			<a href="javascript:void(0)">口令安全</a>
+			<a href="javascript:void(0)">安全策略</a>
+		</div>
+		<div class="sys_main2 tm2">
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<th><p>编号</p></th>
+					<th><p>名称</p></th>
+					
+					<th><p>说明</p></th>
+					<th><p>开关</p></th>
+				</tr>
+				<tr>
+					<td><p>Osl-oracleaccount01</p></td>
+					<td><p>禁止远程连接</p></td>
+					
+					<td><span class="icon _on"></span></td>
+				</tr>
+			</table>
+		</div>
+		<div class="sys_main2 tm2">
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<th><p>编号</p></th>
+					<th><p>名称</p></th>
+					
+					<th><p>说明</p></th>
+					<th><p>开关</p></th>
+				</tr>
+				<tr>
+					<td><p>Osl-oraclepass01</p></td>
+					<td><p>密码复杂程度</p></td>
+				
+					<td><p></p></td>
+					<td><span class="icon _off"></span></td>
+				</tr>
+			</table>
+		</div>
+		<div class="sys_main2 tm2">
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<th><p>编号</p></th>
+					<th><p>名称</p></th>
+					
+					<th><p>说明</p></th>
+					<th><p>开关</p></th>
+				</tr>
+				<tr>
+					<td><p>Osl-oraclesec01</p></td>
+					<td><p>密码复杂程度</p></td>
+
+					<td><p></p></td>
+					<td><span class="icon _on"></span></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+<div class="pop" id="mail">
+	<div class="close"><a href="javascript:void(0)" onclick="lightbox.openScreen('mail')"><img src="images/close.png" alt=""></a></div>
+	<h2>邮件配置</h2>
+	<div class="pop_main">
+		<label for=""><span>POP3</span><input type="text" placeholder="输入样式"></label>
+		<label for=""><span>SMTP</span><input type="text" placeholder="配置默认样式"></label>
+		<label for=""><span>端口</span><input type="text" placeholder="输入端口"></label>
+		<label for=""><span>用户名</span><input type="text" placeholder="输入用户名"></label>
+		<label for=""><span>密码</span><input type="text" placeholder="输入密码"></label>
+		<a href="javascript:void(0)" class="btn">保存</a>
+	</div>
+</div>
+<div class="bottom" id="bottom">
+	<div class="box">Copyright © 1998 - 2015 Tencent. All Rights Reserved    灯塔极限管理系统 / 版权所有    客服热线：010-83746352    QQ群：736253456    京B2-20090059  </div>
+</div>
+<script src="js/pop.js"></script>
+<script type="text/javascript"> 
+$(function(){
+	$("table tr").hover(function(){
+		$(this).addClass("on");
+	}, function(){
+		$(this).removeClass("on");
+	});
+	$(".tab_main").each(function(i){
+		DT.tab(".tb"+ i +" a", "", ".tm" + i);
+	})
+	DT.tab(".tab_btn a");
+	DT.hover(".set");
+	DT.hover(".set p.o", "span.border");
+	DT.bottom();
+});
+</script>
+</body>
+</html>

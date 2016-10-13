@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>灯塔基线管理系统</title>
+<link href="style/master.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+<div class="top">
+    <div class="box">
+        <div class="login">
+            <span class="icon i1"></span>
+            <a href="javascript:void(0)" onclick="lightbox.clockScreen('passwd')">PF-Gentleman</a>
+            <a href="javascript:void(0)" class="login_btn">退出</a>
+            <a href="news.htm" class="aqgg show"><span class="icon new"></span>安全公告</a>
+            <span class="icon set show">
+                <span class="option">
+                    <span class="ico"><span class="icon i15"></span></span>
+                    <span class="menu">
+                        <p>
+                            <a href="javascript:void(0)">策略管理</a>
+                        </p>
+                        <p class="o">
+                            <a href="javascript:void(0)">策略模板</a>
+                            <span class="border">
+                                <span>
+                                    <a href="systems4.htm">操作系统</a>
+                                    <a href="systems5.htm">数据库</a>
+                                    <a href="systems6.htm">中间件</a>
+                                </span>
+                            </span>
+                        </p>
+                        <p><a href="javascript:void(0)" onclick="lightbox.clockScreen('mail')">邮件配置</a></p>
+                        <p><a href="action6.htm">邮件通知</a></p>
+                        <p><a href="#">系统升级</a></p>
+                        <p><a href="bqxx.htm">版权信息</a></p>
+                    </span>
+                </span>
+                <span class="icon new"></span>
+            </span>
+        </div>
+        <div class="logo"><a href="index.htm"><img src="images/logo.png" alt=""></a></div>
+        <h1><img src="images/title.png" alt=""></h1>
+    </div>
+</div>
+
+<div class="box pb38">
+	<div class="data">
+		<h2><span class="icon i12"></span><span class="mr">正常</span><span class="icon i13"></span><span class="mr">危险</span><span class="icon i14"></span><span class="mr">严重</span></h2>
+		<ul>
+			<li>
+				<div class="pie_data">
+					<h3 class="red"><span class="number n8"></span><span class="number n0"></span></h3>
+					<h4>风险数量</h4>
+				</div>
+				<div class="data_tit"><img src="images/tit1.png" alt=""></div>
+				<div id="pie1"></div>
+				<h5>总数量：1717</h5>
+			</li>
+			<li>
+				<div class="pie_data">
+					<h3 class="blue"><span class="number n0"></span></h3>
+					<h4>风险数量</h4>
+				</div>
+				<div class="data_tit"><img onclick="lightbox.clockScreen('cover')" src="images/tit2.png" alt=""></div>
+				<div id="pie2"></div>
+				<h5>总数量：2827</h5>
+			</li>
+			<li class="r">
+				<div class="pie_data">
+					<h3 class="orange"><span class="number n5"></span><span class="number n0"></span></h3>
+					<h4>风险数量</h4>
+				</div>
+				<div class="data_tit"><img src="images/tit3.png" alt=""></div>
+				<div id="pie3"></div>
+				<h5>总数量：8675</h5>
+			</li>
+		</ul>
+		<div class="clr"></div>
+		<ul>
+			<li>
+				<div class="data_box">
+					<div class="tab tab1 l2">
+						<a href="javascript:void(0)" class="on">Windows</a>
+						<a href="javascript:void(0)">Linux</a>
+					</div>
+					<div class="data_main1">
+						<dl>
+							<dt>口令管理</dt><dt class="o"><span>10</span>/100</dt><dd class="o"><div class="progress progress1"><h6></h6></div></dd>
+							<dt>安全策略</dt><dt><span>10</span>/100</dt><dd><div class="progress progress2"><h6></h6></div></dd>
+							<dt>账号管理</dt><dt><span>10</span>/100</dt><dd><div class="progress progress3"><h6></h6></div></dd>
+							<dt>端口管理</dt><dt><span>100</span>/100</dt><dd><div class="progress progress4"><h6></h6></div></dd>
+							<dt>系统服务</dt><dt><span>10</span>/100</dt><dd><div class="progress progress5"><h6></h6></div></dd>
+							<dt>系统进程</dt><dt><span>10</span>/100</dt><dd><div class="progress progress6"><h6></h6></div></dd>
+						</dl>
+						<p><a href="systems.htm">查看更多 ></a></p>
+					</div>
+					<div class="data_main1">
+						<dl>
+							<dt>口令管理11</dt><dt><span>10</span>/100</dt><dd><div class="progress progress1"><h6></h6></div></dd>
+							<dt>安全策略</dt><dt><span>10</span>/100</dt><dd><div class="progress progress2"><h6></h6></div></dd>
+							<dt>账号管理</dt><dt><span>10</span>/100</dt><dd><div class="progress progress3"><h6></h6></div></dd>
+							<dt>端口管理</dt><dt><span>10</span>/100</dt><dd><div class="progress progress4"><h6></h6></div></dd>
+							<dt>系统服务</dt><dt><span>10</span>/100</dt><dd><div class="progress progress5"><h6></h6></div></dd>
+							<dt>系统进程</dt><dt><span>10</span>/100</dt><dd><div class="progress progress6"><h6></h6></div></dd>
+						</dl>
+						<p><a href="systems.htm">查看更多 ></a></p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="data_box">
+					<div class="tab tab2 l3">
+						<a href="javascript:void(0)" class="on">Mlsql</a>
+                        <a href="javascript:void(0)">Mssql</a>
+						<a href="javascript:void(0)">Oracle</a>
+					</div>
+					<div class="data_main2">
+						<dl>
+							<dt>口令管理</dt><dt class="r"><span>10</span>/100</dt><dd class="r"><div class="progress progress1"><h6></h6></div></dd>
+							<dt>安全策略</dt><dt><span>10</span>/100</dt><dd><div class="progress progress2"><h6></h6></div></dd>
+							<dt>账号管理</dt><dt><span>10</span>/100</dt><dd><div class="progress progress3"><h6></h6></div></dd>
+							<dt>端口管理</dt><dt><span>10</span>/100</dt><dd><div class="progress progress4"><h6></h6></div></dd>
+							<dt>系统服务</dt><dt><span>10</span>/100</dt><dd><div class="progress progress5"><h6></h6></div></dd>
+                        </dl>
+						<p><a href="systems2.htm">查看更多 ></a></p>
+					</div>
+					<div class="data_main2">
+						<dl>
+							<dt>口令管理11</dt><dt><span>10</span>/100</dt><dd><div class="progress progress1"><h6></h6></div></dd>
+							<dt>安全策略</dt><dt><span>10</span>/100</dt><dd><div class="progress progress2"><h6></h6></div></dd>
+							<dt>账号管理</dt><dt><span>10</span>/100</dt><dd><div class="progress progress3"><h6></h6></div></dd>
+							<dt>端口管理</dt><dt><span>10</span>/100</dt><dd><div class="progress progress4"><h6></h6></div></dd>
+							<dt>系统服务</dt><dt><span>10</span>/100</dt><dd><div class="progress progress5"><h6></h6></div></dd>
+							<dt>系统进程</dt><dt><span>10</span>/100</dt><dd><div class="progress progress6"><h6></h6></div></dd>
+                            <dt>账号管理</dt><dt><span>10</span>/100</dt><dd><div class="progress progress3"><h6></h6></div></dd>
+                            <dt>端口管理</dt><dt><span>10</span>/100</dt><dd><div class="progress progress4"><h6></h6></div></dd>
+                            <dt>系统服务</dt><dt><span>10</span>/100</dt><dd><div class="progress progress5"><h6></h6></div></dd>
+                            <dt>系统进程</dt><dt><span>10</span>/100</dt><dd><div class="progress progress6"><h6></h6></div></dd>
+						</dl>
+						<p><a href="systems2.htm">查看更多 ></a></p>
+					</div>
+                    <div class="data_main2">
+                        <dl>
+                            <dt>口令管理22</dt><dt><span>10</span>/100</dt><dd><div class="progress progress1"><h6></h6></div></dd>
+                            <dt>安全策略</dt><dt><span>10</span>/100</dt><dd><div class="progress progress2"><h6></h6></div></dd>
+                            <dt>账号管理</dt><dt><span>10</span>/100</dt><dd><div class="progress progress3"><h6></h6></div></dd>
+                            <dt>端口管理</dt><dt><span>10</span>/100</dt><dd><div class="progress progress4"><h6></h6></div></dd>
+                            <dt>系统服务</dt><dt><span>10</span>/100</dt><dd><div class="progress progress5"><h6></h6></div></dd>
+                            <dt>系统进程</dt><dt><span>10</span>/100</dt><dd><div class="progress progress6"><h6></h6></div></dd>
+                        </dl>
+                        <p><a href="systems2.htm">查看更多 ></a></p>
+                    </div>
+				</div>
+			</li>
+			<li class="r">
+				<div class="data_box">
+					<div class="tab tab3 l4">
+						<a href="javascript:void(0)" class="on">IIs</a>
+						<a href="javascript:void(0)">Apache</a>
+                        <a href="javascript:void(0)">Tomcat</a>
+						<a href="javascript:void(0)">Nginx</a>
+					</div>
+					<div class="data_main3">
+						<dl>
+							<dt>口令管理</dt><dt class="b"><span>10</span>/100</dt><dd class="b"><div class="progress progress1"><h6></h6></div></dd>
+							<dt>安全策略</dt><dt><span>10</span>/100</dt><dd><div class="progress progress2"><h6></h6></div></dd>
+							<dt>账号管理</dt><dt><span>10</span>/100</dt><dd><div class="progress progress3"><h6></h6></div></dd>
+						</dl>
+						<p><a href="systems3.htm">查看更多 ></a></p>
+					</div>
+					<div class="data_main3">
+						<dl>
+							<dt>口令管理11</dt><dt><span>10</span>/100</dt><dd><div class="progress progress1"><h6></h6></div></dd>
+							<dt>安全策略</dt><dt><span>10</span>/100</dt><dd><div class="progress progress2"><h6></h6></div></dd>
+							<dt>账号管理</dt><dt><span>10</span>/100</dt><dd><div class="progress progress3"><h6></h6></div></dd>
+							<dt>端口管理</dt><dt><span>10</span>/100</dt><dd><div class="progress progress4"><h6></h6></div></dd>
+							<dt>系统服务</dt><dt><span>10</span>/100</dt><dd><div class="progress progress5"><h6></h6></div></dd>
+							<dt>系统进程</dt><dt><span>10</span>/100</dt><dd><div class="progress progress6"><h6></h6></div></dd>
+						</dl>
+						<p><a href="systems3.htm">查看更多 ></a></p>
+					</div>
+					<div class="data_main3">
+						<dl>
+							<dt>口令管理22</dt><dt><span>10</span>/100</dt><dd><div class="progress progress1"><h6></h6></div></dd>
+							<dt>安全策略</dt><dt><span>10</span>/100</dt><dd><div class="progress progress2"><h6></h6></div></dd>
+							<dt>账号管理</dt><dt><span>10</span>/100</dt><dd><div class="progress progress3"><h6></h6></div></dd>
+							<dt>端口管理</dt><dt><span>10</span>/100</dt><dd><div class="progress progress4"><h6></h6></div></dd>
+							<dt>系统服务</dt><dt><span>10</span>/100</dt><dd><div class="progress progress5"><h6></h6></div></dd>
+							<dt>系统进程</dt><dt><span>10</span>/100</dt><dd><div class="progress progress6"><h6></h6></div></dd>
+						</dl>
+						<p><a href="systems3.htm">查看更多 ></a></p>
+					</div>
+                    <div class="data_main3">
+                        <dl>
+                            <dt>口令管理22</dt><dt><span>10</span>/100</dt><dd><div class="progress progress1"><h6></h6></div></dd>
+                            <dt>安全策略</dt><dt><span>10</span>/100</dt><dd><div class="progress progress2"><h6></h6></div></dd>
+                            <dt>账号管理</dt><dt><span>10</span>/100</dt><dd><div class="progress progress3"><h6></h6></div></dd>
+                            <dt>端口管理</dt><dt><span>10</span>/100</dt><dd><div class="progress progress4"><h6></h6></div></dd>
+                            <dt>系统服务</dt><dt><span>10</span>/100</dt><dd><div class="progress progress5"><h6></h6></div></dd>
+                            <dt>系统进程</dt><dt><span>10</span>/100</dt><dd><div class="progress progress6"><h6></h6></div></dd>
+                        </dl>
+                        <p><a href="systems3.htm">查看更多 ></a></p>
+                    </div>
+				</div>
+			</li>
+		</ul>
+		<div class="clr"></div>
+	</div>
+</div>
+<div class="pop" id="mail">
+	<div class="close"><a href="javascript:void(0)" onclick="lightbox.openScreen('mail')"><img src="images/close.png" alt=""></a></div>
+	<h2>邮件配置</h2>
+	<div class="pop_main">
+		<label for=""><span>POP3</span><input type="text" placeholder="输入样式"></label>
+		<label for=""><span>SMTP</span><input type="text" placeholder="配置默认样式"></label>
+		<label for=""><span>端口</span><input type="text" placeholder="输入端口"></label>
+		<label for=""><span>用户名</span><input type="text" placeholder="输入用户名"></label>
+        <label for=""><span>密码</span><input type="text" placeholder="输入密码"></label>
+		<a href="javascript:void(0)" class="btn">保存</a>
+	</div>
+</div>
+<div class="pop" id="passwd">
+    <div class="close"><a href="javascript:void(0)" onclick="lightbox.openScreen('passwd')"><img src="images/close.png" alt=""></a></div>
+    <h2>修改密码</h2>
+    <div class="pop_main">
+        <label for=""><span>用户名</span><input type="text" placeholder="请输入用户名"></label>
+        <label for=""><span>密码</span><input type="text" placeholder="请输入密码"></label>
+        <a href="javascript:void(0)" class="btn">确认修改</a>
+    </div>
+</div>
+<div id="cover">
+    <div class="cover cover1">
+        <h3><img src="images/tit4.png" alt=""></h3>
+        <h4><a href="javascript:void(0)"><img src="images/btn1.png" alt=""></a></h4>
+    </div>
+    <div class="cover cover2 none">
+        <div class="from">
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <th>输入lienses:</th>
+                    <td><input type="text" placeholder="请输入序号"></td>
+                    <td><span class="icon y"></span></td>
+                </tr>
+            </table>
+        </div>
+        <h4><a href="javascript:void(0)"><img src="images/btn1.png" alt=""></a></h4>
+    </div>
+    <div class="cover cover3 none">
+        <h3>正在下载策略模板...</h3>
+        <div class="loading_box"><div class="loading" style="width:32%"></div></div>
+    </div>
+</div>
+<div class="tbox">5秒后自动关闭...</div>
+<div class="bottom" id="bottom">
+	<div class="box">Copyright © 1998 - 2015 Tencent. All Rights Reserved    灯塔极限管理系统 / 版权所有    客服热线：010-83746352    QQ群：736253456    京B2-20090059  </div>
+</div>
+<script type="text/javascript" src="js/highcharts.js"></script>
+<script src="js/pop.js"></script>
+<script type="text/javascript">
+	$(function(){
+		DT.tab(".tab1 a");
+		DT.tab(".tab2 a");
+		DT.tab(".tab3 a");
+        DT.hover(".set");
+        DT.hover(".set p.o", "span.border");
+		DT.progress(".progress1 h6", 10); //进度条
+		$('#pie1').highcharts({
+            chart: {
+            	height : 300,
+                borderWiddth:0,
+                plotBackgroundColor: null,
+                plotBorderWidth: 0,
+                plotShadow: false
+            },
+            colors : ['#ff6d6d', '#3c9dff'],
+            title: {
+                text: null
+            },
+            // 图表版权信息
+            credits: {
+                enabled: false
+            },
+            // 图表导出功能模块
+            exporting: {
+                enabled: false
+            },
+            tooltip : {
+				enabled : false
+			},
+			
+            plotOptions: {
+                pie: {
+                    dataLabels: {
+                        distance: -50,
+                        style: {
+                            display: "none"
+                        }
+                    },
+                    states:{
+                        hover:{
+                            enabled:false
+                        }
+                    }
+                }
+            },
+            series: [{
+                type: 'pie',
+                innerSize: '70%',
+                data: [
+                    [45.0],
+                    [26.8]
+                ]
+            }]
+        });
+		$('#pie2').highcharts({
+            chart: {
+            	height : 300,
+                plotBackgroundColor: null,
+                plotBorderWidth: 0,
+                plotShadow: false
+            },
+            colors : ['#ff6d6d', '#3c9dff'],
+            title: {
+                text: null
+            },
+            tooltip: {
+                enabled: true,
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            // 图表版权信息
+            credits: {
+                enabled: false
+            },
+            tooltip : {
+				enabled : false
+			},
+            // 图表导出功能模块
+            exporting: {
+                enabled: false
+            },
+            plotOptions: {
+                pie: {
+                    dataLabels: {
+                        distance: -50,
+                        style: {
+                        	display: "none"
+                        }
+                    },
+                    states:{
+                        hover:{
+                            enabled:false
+                        }
+                    }
+                }
+            },
+            series: [{
+                type: 'pie',
+                innerSize: '60%',
+
+                data: [
+                    ['', 0],
+                    ['', 45.0]
+                ]
+            }]
+        });
+		$('#pie3').highcharts({
+            chart: {
+            	height : 300,
+                plotBackgroundColor: null,
+                plotBorderWidth: 0,
+                plotShadow: false
+            },
+            colors : ['#ffb400', '#3c9dff'],
+            title: {
+                text: null
+            },
+            tooltip: {
+                enabled: true,
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            // 图表版权信息
+            credits: {
+                enabled: false
+            },
+            tooltip : {
+				enabled : false
+			},
+            // 图表导出功能模块
+            exporting: {
+                enabled: false
+            },
+            plotOptions: {
+                pie: {
+                    dataLabels: {
+                        distance: -50,
+                        style: {
+                        	display: "none"
+                        }
+                    },
+                    states:{
+                        hover:{
+                            enabled:false
+                        }
+                    }
+                }
+            },
+            series: [{
+                type: 'pie',
+                innerSize: '60%',
+                data: [
+                    ['', 14],
+                    ['', 45.0]
+                ]
+            }]
+        });
+		DT.bottom();
+        var ul = $('.data ul'),
+            max = function(arr){
+                return Math.max.apply({},arr);
+            },
+            setLiHeight = function(){
+                var arr = [];
+                ul.find("dl").each(function(){
+                    arr.push($(this).height());
+                }).height(max(arr));
+                console.log(max(arr));
+            };
+        setLiHeight();
+	});
+</script>
+</body>
+</html>
